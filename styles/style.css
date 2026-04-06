@@ -297,18 +297,19 @@
 }
 
 .about__logo {
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
   background-color: #000;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: -30px;
+  margin-left: 40px;
 }
 
 .about__logo-image {
-  width: 80px;
+  width: 100px;
   height: auto;
 }
 
@@ -318,6 +319,7 @@
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 40px;
+  margin-top: 0;
 }
 
 .about__text p {

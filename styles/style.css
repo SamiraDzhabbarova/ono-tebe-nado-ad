@@ -85,8 +85,8 @@
   flex-direction: column;
   justify-content: center; 
   align-items: center;     
-  padding: 100px 80px;
-  margin-bottom: 100px;
+  padding: 120px 100px;
+  margin-bottom: 120px;
 }
 
 .overlay {
@@ -95,7 +95,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: 1;
 }
 
@@ -133,21 +133,22 @@
 .cover__description {
   position: relative;
   z-index: 2;
-  margin-top: 40px; 
+  margin-top: 50px;
   width: 100%;
   display: flex;
   justify-content: space-between; 
   align-items: flex-end; 
 }
 
+
 .cover__description-text {
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 24px;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 0.05em; 
   margin: 0;
-  max-width: 50%; 
+  white-space: nowrap; 
+  word-spacing: 10px;  
 }
 
 .bet-button {
@@ -161,6 +162,8 @@
   cursor: pointer;
   font-family: inherit;
   transition: all 0.3s;
+  margin-top: 30px;
+ 
 }
 
 .bet-button:hover {

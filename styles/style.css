@@ -83,8 +83,8 @@
   background-position: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
+  align-items: center;     
   padding: 100px 80px;
   margin-bottom: 100px;
 }
@@ -109,35 +109,35 @@
   text-transform: uppercase;
   margin: 0;
   display: block; 
+  width: 100%;
 }
 
 .cover__title-word {
-  display: block;
+  display: block; 
+  width: 100%;
 }
 
 .cover__title-word_left {
   text-align: left;
-  margin-bottom: 20px;
 }
 
 .cover__title-word_center {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .cover__title-word_right {
   text-align: right;
- 
 }
+
 
 .cover__description {
   position: relative;
   z-index: 2;
-  margin-top: 40px;
+  margin-top: 40px; 
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
+  justify-content: space-between; 
+  align-items: flex-end; 
 }
 
 .cover__description-text {
@@ -145,12 +145,9 @@
   line-height: 26px;
   color: #fff;
   text-transform: uppercase;
-  word-spacing: 10px;
+  letter-spacing: 0.05em; 
   margin: 0;
-}
-
-.letter-spacing-extended {
-  word-spacing: 10px;
+  max-width: 50%; 
 }
 
 .bet-button {
@@ -162,8 +159,8 @@
   line-height: 20px;
   text-transform: uppercase;
   cursor: pointer;
-  transition: all 0.3s;
   font-family: inherit;
+  transition: all 0.3s;
 }
 
 .bet-button:hover {

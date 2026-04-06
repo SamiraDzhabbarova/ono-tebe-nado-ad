@@ -193,11 +193,11 @@
   list-style: none;
   padding: 0;
   margin: 0 0 40px 0;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .lots__card-list-item {
-  width: 320px;
+  width: calc((100% - 40px) / 3);
   min-height: 500px;
 }
 

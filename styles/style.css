@@ -108,9 +108,7 @@
   color: #fff;
   text-transform: uppercase;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: block; 
 }
 
 .cover__title-word {
@@ -119,17 +117,17 @@
 
 .cover__title-word_left {
   text-align: left;
-  width: 100%;
+  margin-bottom: 20px;
 }
 
 .cover__title-word_center {
   text-align: center;
-  width: 100%;
+  margin-bottom: 20px;
 }
 
 .cover__title-word_right {
   text-align: right;
-  width: 100%;
+ 
 }
 
 .cover__description {
@@ -242,13 +240,16 @@
 }
 
 .card__title {
-  position: relative;
-  z-index: 2;
-  font-size: 20px;
-  line-height: 26px;
+  margin-top: 0;
+  margin-bottom: auto; 
+  text-decoration: underline;
+  text-decoration-skip-ink: none; 
+  font-size: 18px; 
+  line-height: 24px;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .card__text {
@@ -280,7 +281,7 @@
   gap: 40px;
   padding: 0 80px;
   margin-bottom: 100px;
-  border: 3px solid #f5d43b;
+  border: 3px solid #ff3e3e; 
 }
 
 .about__column {

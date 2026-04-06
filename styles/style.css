@@ -133,11 +133,12 @@
 .cover__description {
   position: relative;
   z-index: 2;
-  margin-top: 50px;
   width: 100%;
   display: flex;
   justify-content: space-between; 
   align-items: flex-end; 
+  margin-top: 250px; 
+  padding-bottom: 10px; 
 }
 
 

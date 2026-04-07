@@ -108,32 +108,31 @@
   color: #fff;
   text-transform: uppercase;
   margin: 0;
-  display: block; 
+  height: 300px; 
   width: 100%;
 }
 
 .cover__title-word {
-  display: block; 
-  width: 100%;
-  margin-bottom: 50px; 
-}
-
-.cover__title-word:last-child {
-  margin-bottom: 0;
+  position: absolute; 
+  display: block;
+  white-space: nowrap;
 }
 
 .cover__title-word_left {
-  text-align: left;
+  top: 0;
+  left: 0;
 }
 
 .cover__title-word_center {
-  text-align: center;
+  top: 100px; 
+  left: 50%;
+  transform: translateX(-50%); 
 }
 
 .cover__title-word_right {
-  text-align: right;
+  bottom: 0;
+  right: 0;
 }
-
 
 .cover__description {
   position: relative;

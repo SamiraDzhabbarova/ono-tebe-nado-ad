@@ -77,18 +77,16 @@
 /* ==================== COVER SECTION ==================== */
 .cover {
   position: relative;
-
   background-image: url('../images/cover.jpg');
   background-size: cover;
   background-position: center;
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 100px 140px; 
   padding-bottom: 60px;
-  margin-bottom: 100px;
+  margin-bottom: 110px;
 }
 .overlay {
   position: absolute;

@@ -1,1 +1,1 @@
-https://samiradzhabbarova.github.io/ono-tebe-nado-ad
+https://github.com/samiradzhabbarova/ono-tebe-nado-ad

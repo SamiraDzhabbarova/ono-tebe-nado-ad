@@ -77,7 +77,7 @@
 /* ==================== COVER SECTION ==================== */
 .cover {
   position: relative;
-  min-height: 500px;
+  min-height: 300px;
   background-image: url('../images/cover.jpg');
   background-size: cover;
   background-position: center;
@@ -85,8 +85,8 @@
   flex-direction: column;
   justify-content: center; 
   align-items: center;     
-  padding: 120px 100px;
-  margin-bottom: 120px;
+  padding: 100px 80px;
+  margin-bottom: 100px;
 }
 
 .overlay {

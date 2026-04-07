@@ -123,6 +123,7 @@
 .cover__title-word_center {
   text-align: center;
   transform: translateY(30px); 
+}
 
 .cover__title-word_right {
   text-align: right;

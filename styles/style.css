@@ -115,6 +115,11 @@
 .cover__title-word {
   display: block; 
   width: 100%;
+  margin-bottom: 50px; 
+}
+
+.cover__title-word:last-child {
+  margin-bottom: 0;
 }
 
 .cover__title-word_left {
